@@ -1,0 +1,72 @@
+/* styles.css (archivo de estilos CSS) */
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .background-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .background-container {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 24px;
+    }
+  
+    .subtitle {
+      font-size: 20px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  }
+  
